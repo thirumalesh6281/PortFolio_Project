@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.internship-section {
+  padding: 50px 20px;
+}
+
+.internship-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1100px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+/* Left Image */
+.internship-image img {
+  width: 400px;
+  height: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(28, 146, 150, 0.8);
+  object-fit: cover;
+}
+
+/* Right Content */
+.internship-content {
+  flex: 1;
+}
+
+.internship-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #057579;
+}
+
+.internship-content h3 {
+  color: #046b6e;
+  margin-bottom: 15px;
+}
+
+.internship-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.internship-content h2 {
+  color: #034d50;
+  margin-bottom: 10px;
+}
+
+.internship-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.internship-content ul li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.internship-content ul li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color: #121815;
+}
+
+/* GitHub link style */
+.github-note a {
+  color: #057579;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-note a:hover {
+  text-decoration: underline;
+}

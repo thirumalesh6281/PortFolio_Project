@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+.internship-section {
+  padding: 50px 20px;
+}
+
+.internship-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1100px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+/* Left Video */
+.internship-video video {
+  width: 400px;
+  height: 350px;
+  /* object-fit: cover; */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(28, 146, 150, 0.8);
+}
+
+/* Right Content */
+.internship-details {
+  flex: 1;
+}
+
+.internship-details h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #057579;
+}
+
+.internship-details h3 {
+  margin-top: 30px;
+  color: #046b6e;
+  margin-bottom: 15px;
+}
+
+.internship-details p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.internship-details ul {
+  list-style: none;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.internship-details ul li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.internship-details ul li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color: #121815;
+}

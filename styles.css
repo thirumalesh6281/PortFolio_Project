@@ -694,3 +694,130 @@ section h1 {
     padding: 20px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Enhanced Mobile Responsive Styles */
+@media (max-width: 768px) {
+
+  /* Navbar adjustments */
+  .navbar {
+    padding: 0 20px;
+    height: 60px;
+    margin-top: 5px;
+    width: 95%;
+    border-radius: 8px;
+  }
+
+  .logo a {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  /* Stack sections vertically */
+  .about-container,
+  .skills-container,
+  .contact-container,
+  .project-card,
+  .cert-grid {
+    flex-direction: column;
+    padding: 10px 15px;
+    align-items: center;
+  }
+
+  /* Center and resize images */
+  .about-image img,
+  .skills-image img,
+  .project-image img,
+  .cert-card img {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+  }
+
+  /* Full width content and center text */
+  .about-content,
+  .skills-content,
+  .project-content,
+  .contact-left,
+  .contact-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Adjust font sizes for headings */
+  h1, h2, h3 {
+    font-size: 1.6rem;
+  }
+
+  /* Project cards stack vertically */
+  .project-card {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .project-content {
+    padding: 20px 15px;
+  }
+
+  /* Certifications grid single column */
+  .cert-grid {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+  }
+
+  .cert-card {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  /* Contact section stack and center */
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-left, .contact-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Home section text and image stack */
+  .home-section {
+    flex-direction: column;
+    padding: 20px 10px;
+    margin-top: 50px;
+  }
+
+  .text-content, .image-content {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .image-content img {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+  }
+}
